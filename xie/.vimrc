@@ -37,6 +37,6 @@ endif
 
 "ShortKey for NERDTree"
 let mapleader = ","
-nmap <leader>ne :NERDTree<cr>
 nmap <leader>t :NERDTreeTabsToggle<cr>
 nmap <leader>f :NERDTreeTabsFind<cr>
+nmap <leader>m :NERDTreeMirrorOpen<cr>
