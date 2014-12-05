@@ -4,7 +4,7 @@ set nu
 set background=dark
 "colorscheme solarized
 "colorscheme github
-"colorscheme codeschool
+"colorscheme coffee 
 "colorscheme elda
 "colorscheme developer
 "colorscheme oceandeep
@@ -14,15 +14,15 @@ colorscheme zenburn
 "colorscheme jellybeans
 set showmatch
 set showmode
-set autoindent
 set smartindent
 "set cindent
-
+set hlsearch
+set ignorecase
 set shiftwidth=2
 set tabstop=2
 
 execute pathogen#infect()
-"filetype plugin indent on
+filetype plugin indent on
 
 "Set CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -40,3 +40,7 @@ let mapleader = ","
 nmap <leader>t :NERDTreeTabsToggle<cr>
 nmap <leader>f :NERDTreeTabsFind<cr>
 nmap <leader>m :NERDTreeMirrorOpen<cr>
+
+"Set ac.vim
+let g:agprg="ag --column"
+let g:aghighlight=1
