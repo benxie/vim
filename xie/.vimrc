@@ -24,6 +24,9 @@ set tabstop=2
 execute pathogen#infect()
 "filetype plugin indent on
 
+"Set CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 if !has('gui_running')
 	    let g:solarized_termtrans=1
 			if (&t_Co >= 256 || $TERM == 'xterm-256color')
