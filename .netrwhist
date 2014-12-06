@@ -1,2 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/xie/Sites/bounceexchange'
+let g:netrw_dirhist_2='/Users/xie/Sites/bounceexchange/application/controllers'
+let g:netrw_dirhist_3='/Users/xie/Sites/bounceexchange'
+let g:netrw_dirhist_4='/Users/xie'
+let g:netrw_dirhist_5='/Users/xie/Sites/octopress'
+let g:netrw_dirhist_6='/Users/xie/Sites/bounceexchange'
+let g:netrw_dirhist_7='/Users/xie'
+let g:netrw_dirhist_8='/Users/xie/Sites/bounceexchange'
