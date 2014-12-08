@@ -20,7 +20,7 @@ set hlsearch
 set ignorecase
 set shiftwidth=2
 set tabstop=2
-
+set autoread
 execute pathogen#infect()
 filetype plugin indent on
 
