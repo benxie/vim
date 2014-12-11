@@ -13,23 +13,16 @@ Plugin 'gmarik/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
+" Plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
-" ack.vim
+plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
-" ag
 Plugin 'rking/ag.vim'
-" Nerdtree 
 Plugin 'scrooloose/nerdtree'
-" Nerdtreetabs
 Plugin 'jistr/vim-nerdtree-tabs'
-" Vim commentary"
 Plugin 'tpope/vim-commentary'
-" unite.vim"
 Plugin 'Shougo/unite.vim'
-" YouCompleteMe"
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
@@ -63,8 +56,9 @@ set ttyfast
 set nu
 syntax enable
 set background=dark
-colorscheme zenburn
+"colorscheme zenburn
 "colorscheme autumn
+colorscheme desert
 set showmatch
 set showmode
 set hlsearch
