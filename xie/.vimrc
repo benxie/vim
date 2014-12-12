@@ -15,7 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " Plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
-plugin on GitHub repo
+"plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
 Plugin 'rking/ag.vim'
@@ -26,6 +26,8 @@ Plugin 'Shougo/unite.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'mattn/emmet-vim'
 Plugin 'kien/ctrlp.vim'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-notes'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -56,12 +58,13 @@ set ttyfast
 set nu
 syntax enable
 set background=dark
-"colorscheme zenburn
+colorscheme zenburn
 "colorscheme autumn
-colorscheme desert
+"colorscheme desert
 set showmatch
 set showmode
 set hlsearch
+set incsearch
 set ignorecase
 set shiftwidth=2
 set tabstop=2
